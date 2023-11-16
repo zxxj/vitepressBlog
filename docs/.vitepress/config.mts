@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'dusk',
   // description: 'this is my learning blog!!!', // seo
   themeConfig: {
-    logo: '/images/logo.svg',
+    logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: 'HTML', link: '/html/index.md' },
