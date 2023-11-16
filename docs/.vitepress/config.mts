@@ -6,6 +6,7 @@ export default defineConfig({
   title: 'dusk',
   // description: 'this is my learning blog!!!', // seo
   themeConfig: {
+    logo: '/images/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: 'HTML', link: '/html/index.md' },
@@ -72,7 +73,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/zxxj' }],
     footer: {
       message: '如果不够幸运 那就多努力一点吧 ~',
-      copyright: '2023.11.15 @zhangxinxin',
+      copyright: '2023.11.15 @dusk',
     },
   },
 });
