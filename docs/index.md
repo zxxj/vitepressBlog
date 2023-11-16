@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'dusk'
   image:
-    src: /images/4.png
+    src: './images/4.png'
     alt: logo
 
   # text: '欢迎来到我的笔记本~'
