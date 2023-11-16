@@ -20,9 +20,9 @@ hero:
 
 features:
   - title: 🌞
-    details: 时间 不在于你拥有多少 而在于 你怎样使用
+    details: 我会努力争取每一天都取得一点进步,我需要回顾昨天,感觉今天比昨天好就足够,一天一点进步,那一辈子该有多少的飞跃.
   - title: ⚡
-    details: 我宁愿犯错 也不愿什么都不做
+    details: 保持空杯心态 才能持续不断的进步.
   - title: 🚀
-    details: 爱你 老妈 明天见 mua
+    details: 每天比前一天的自己进步一点点.
 ---
