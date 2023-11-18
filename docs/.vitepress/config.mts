@@ -13,6 +13,7 @@ export default defineConfig({
       { text: 'CSS', link: '/css/index.md' },
       { text: 'JavaScript', link: '/JavaScript/index.md' },
       { text: 'library', link: '/library/index.md' },
+      { text: '网络', link: '/NetWork/index.md' },
       { text: '难点总结', link: '/difficult/index.md' },
       { text: '日记', link: '/diary/index.md' },
       // { text: 'examples', link: '/markdown-examples' },
