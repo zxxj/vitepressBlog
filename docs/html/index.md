@@ -88,9 +88,7 @@
 	<body>
 		<!-- 父子关系 -->
 		<ul>
-			<li>dusk1</li>
-			<li>dusk2</li>
-			<li>dusk3</li>
+			<li>dusk</li>
 		</ul>
 
 		<!-- 兄弟关系 -->
