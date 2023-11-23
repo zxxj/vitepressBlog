@@ -42,6 +42,15 @@ export default defineConfig({
           },
           { text: 'library', link: '/library/index.md' },
           {
+            text: 'Java',
+            items: [
+              {
+                text: '基础语法',
+                link: '/Java/basic',
+              },
+            ],
+          },
+          {
             text: '难点总结',
             items: [
               {
