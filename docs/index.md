@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 进入
-      link: /diary/index.md
+      link: /html/index.md
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
