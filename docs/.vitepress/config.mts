@@ -26,6 +26,7 @@ export default defineConfig({
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'HTML', link: '/html/index.md' },
+          { text: 'three.js', link: '/threejs/index.md' },
           // { text: 'CSS', link: '/css/index.md' },
           // {
           //   text: 'JavaScript',
@@ -41,15 +42,15 @@ export default defineConfig({
           //   ],
           // },
           // { text: 'library', link: '/library/index.md' },
-          {
-            text: 'Java',
-            items: [
-              {
-                text: '基础语法',
-                link: '/Java/basic',
-              },
-            ],
-          },
+          // {
+          //   text: 'Java',
+          //   items: [
+          //     {
+          //       text: '基础语法',
+          //       link: '/Java/basic',
+          //     },
+          //   ],
+          // },
           // {
           //   text: '难点总结',
           //   items: [
