@@ -3,7 +3,7 @@
 ```js
 1.新监空文件夹
 2.初始化package.json: npm init
-3.安装parcel: npm install -g parcel-bundler
+3.安装parcel: npm install parcel-bundler
 4.参考官网后修改package.json,如下:
 	{
   	"scripts": {
