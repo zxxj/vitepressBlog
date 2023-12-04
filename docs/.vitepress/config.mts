@@ -41,7 +41,25 @@ export default defineConfig({
               },
               {
                 text: '面向对象',
-                link: '/Java/oop',
+                collapsed: true,
+                items: [
+                  {
+                    text: '类与对象',
+                    link: '/Java/类与对象.md',
+                  },
+                  {
+                    text: '属性',
+                    link: '/Java/属性.md',
+                  },
+                  {
+                    text: '方法(Method)',
+                    link: '/Java/方法.md',
+                  },
+                  {
+                    text: '方法重载(overLoad)',
+                    link: '/Java/方法重载.md',
+                  },
+                ],
               },
             ],
           },
