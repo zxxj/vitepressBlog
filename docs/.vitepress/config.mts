@@ -48,6 +48,10 @@ export default defineConfig({
                     link: '/Java/类与对象.md',
                   },
                   {
+                    text: '类的成员',
+                    link: '/Java/类的成员.md',
+                  },
+                  {
                     text: '属性',
                     link: '/Java/属性.md',
                   },
@@ -58,6 +62,14 @@ export default defineConfig({
                   {
                     text: '方法重载(overLoad)',
                     link: '/Java/方法重载.md',
+                  },
+                  {
+                    text: '可变参数',
+                    link: '/Java/可变参数.md',
+                  },
+                  {
+                    text: '递归',
+                    link: '/Java/方法的递归调用.md',
                   },
                 ],
               },
