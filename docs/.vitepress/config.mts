@@ -47,6 +47,22 @@ export default defineConfig({
                 link: '/Java/basic',
               },
               {
+                text: '方法(Method)',
+                link: '/Java/方法.md',
+              },
+              {
+                text: '方法重载(overLoad)',
+                link: '/Java/方法重载.md',
+              },
+              {
+                text: '可变参数',
+                link: '/Java/可变参数.md',
+              },
+              {
+                text: '递归',
+                link: '/Java/方法的递归调用.md',
+              },
+              {
                 text: '面向对象',
                 collapsed: true,
                 items: [
@@ -59,24 +75,12 @@ export default defineConfig({
                     link: '/Java/类的成员.md',
                   },
                   {
-                    text: '属性',
-                    link: '/Java/属性.md',
+                    text: '成员变量',
+                    link: '/Java/成员变量.md',
                   },
                   {
-                    text: '方法(Method)',
-                    link: '/Java/方法.md',
-                  },
-                  {
-                    text: '方法重载(overLoad)',
-                    link: '/Java/方法重载.md',
-                  },
-                  {
-                    text: '可变参数',
-                    link: '/Java/可变参数.md',
-                  },
-                  {
-                    text: '递归',
-                    link: '/Java/方法的递归调用.md',
+                    text: '包',
+                    link: '/Java/包.md',
                   },
                 ],
               },
