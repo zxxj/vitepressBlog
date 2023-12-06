@@ -82,6 +82,18 @@ export default defineConfig({
                     text: '包',
                     link: '/Java/包.md',
                   },
+                  {
+                    text: '成员方法',
+                    link: '/Java/成员方法.md',
+                  },
+                  {
+                    text: '静态方法和非静态方法的区别',
+                    link: '/Java/静态方法和非静态方法的区别.md',
+                  },
+                  {
+                    text: '对象数组',
+                    link: '/Java/对象数组.md',
+                  },
                 ],
               },
             ],
