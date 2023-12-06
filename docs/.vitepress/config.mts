@@ -3,7 +3,9 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   base: '/vitepressBlog/',
   title: 'dusk',
-  head: [['link', { rel: 'icon', type: 'image/png+xml', href: '/3.png' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/png+xml', href: '../public/3.png' }],
+  ],
   // description: 'this is my learning blog!!!', // seo
 
   markdown: {
@@ -84,10 +86,9 @@ export default defineConfig({
       },
     ],
 
-    algolia: {
-      appId: 'R2IYF7ETH7',
-      apiKey: '599cec31baffa4868cae4e79f180729b',
-      indexName: 'index',
+    search: {
+      // vitepress 内置 search
+      provider: 'local',
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/zxxj' }],
