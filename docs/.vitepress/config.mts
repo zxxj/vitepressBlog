@@ -3,10 +3,11 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   base: '/vitepressBlog/',
   title: 'dusk',
+  head: [['link', { rel: 'icon', href: '/public/3.ico' }]],
   // description: 'this is my learning blog!!!', // seo
   themeConfig: {
     // aside: false,
-    logo: '/logo.svg',
+    logo: '/public/3.png',
     nav: [
       { text: '首页', link: '/' },
       { text: 'HTML', link: '/html/index.md' },
