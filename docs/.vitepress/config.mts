@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   base: '/vitepressBlog/',
   title: 'dusk',
-  head: [['link', { rel: 'icon', href: '/ico.ico' }]],
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/ico.ico' }]],
   // description: 'this is my learning blog!!!', // seo
   themeConfig: {
     // aside: false,
