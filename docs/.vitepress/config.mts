@@ -3,8 +3,12 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   base: '/vitepressBlog/',
   title: 'dusk',
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/ico.ico' }]],
+  head: [['link', { rel: 'icon', type: 'image/png+xml', href: '/3.png' }]],
   // description: 'this is my learning blog!!!', // seo
+
+  markdown: {
+    lineNumbers: true, // 是否显示行数，默认false
+  },
   themeConfig: {
     // aside: false,
     logo: '/3.png',
