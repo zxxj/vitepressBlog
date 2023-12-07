@@ -94,6 +94,14 @@ export default defineConfig({
                     text: '对象数组',
                     link: '/Java/对象数组.md',
                   },
+                  {
+                    text: '构造器',
+                    link: '/Java/构造器.md',
+                  },
+                  {
+                    text: '封装',
+                    link: '/Java/封装.md',
+                  },
                 ],
               },
             ],
