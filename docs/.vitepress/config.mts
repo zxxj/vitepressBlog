@@ -102,6 +102,10 @@ export default defineConfig({
                     text: '封装',
                     link: '/Java/封装.md',
                   },
+                  {
+                    text: '继承',
+                    link: '/Java/继承.md',
+                  },
                 ],
               },
             ],
