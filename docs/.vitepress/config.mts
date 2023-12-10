@@ -106,6 +106,14 @@ export default defineConfig({
                     text: '继承',
                     link: '/Java/继承.md',
                   },
+                  {
+                    text: '方法重写',
+                    link: '/Java/方法重写.md',
+                  },
+                  {
+                    text: '多态',
+                    link: '/Java/多态.md',
+                  },
                 ],
               },
             ],
