@@ -114,6 +114,10 @@ export default defineConfig({
                     text: '多态',
                     link: '/Java/多态.md',
                   },
+                  {
+                    text: 'final',
+                    link: '/Java/final.md',
+                  },
                 ],
               },
             ],
