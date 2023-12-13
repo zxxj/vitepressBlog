@@ -118,6 +118,14 @@ export default defineConfig({
                     text: 'final',
                     link: '/Java/final.md',
                   },
+                  {
+                    text: '抽象类',
+                    link: '/Java/抽象类.md',
+                  },
+                  {
+                    text: '接口',
+                    link: '/Java/接口.md',
+                  },
                 ],
               },
             ],
