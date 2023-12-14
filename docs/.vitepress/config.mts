@@ -40,6 +40,42 @@ export default defineConfig({
           { text: 'three.js', link: '/threejs/index.md' },
           {
             collapsed: true,
+            text: 'JavaScript',
+            items: [
+              {
+                text: 'JavaScript的组成',
+                link: '/JavaScript/1.JavaScript的组成.md',
+              },
+              {
+                text: 'JavaScript由谁来运行?',
+                link: '/JavaScript/2.JavaScript由谁来运行.md',
+              },
+              {
+                text: '认识JavaScript引擎',
+                link: '/JavaScript/3.认识JavaScript引擎.md',
+              },
+              {
+                text: 'JavaScript基础语法',
+                collapsed: true,
+                items: [
+                  {
+                    text: 'JavaScript的三种编写方式',
+                    link: '/JavaScript/5.JavaScript三种编写方式.md',
+                  },
+                  {
+                    text: 'noscript元素',
+                    link: '/JavaScript/6.noscript元素.md',
+                  },
+                  {
+                    text: 'JavaScript注意事项',
+                    link: '/JavaScript/7.JavaScript编写时的注意事项.md',
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            collapsed: true,
             text: 'Java',
             items: [
               {
