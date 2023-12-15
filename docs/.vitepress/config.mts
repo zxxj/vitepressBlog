@@ -70,6 +70,18 @@ export default defineConfig({
                     text: 'JavaScript注意事项',
                     link: '/JavaScript/7.JavaScript编写时的注意事项.md',
                   },
+                  {
+                    text: 'JavaScript的交互方式',
+                    link: '/JavaScript/8.JavaScript的交互方式.md',
+                  },
+                  {
+                    text: 'JavaScript的语句和分号',
+                    link: '/JavaScript/9.JavaScript的语句和分号.md',
+                  },
+                  {
+                    text: '变量',
+                    link: '/JavaScript/10.变量.md',
+                  },
                 ],
               },
             ],
