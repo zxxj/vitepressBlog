@@ -82,6 +82,10 @@ export default defineConfig({
                     text: '变量',
                     link: '/JavaScript/10.变量.md',
                   },
+                  {
+                    text: '数据类型',
+                    link: '/JavaScript/11.数据类型.md',
+                  },
                 ],
               },
             ],
