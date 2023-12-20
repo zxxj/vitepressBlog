@@ -86,6 +86,10 @@ export default defineConfig({
                     text: '数据类型',
                     link: '/JavaScript/11.数据类型.md',
                   },
+                  {
+                    text: '运算符',
+                    link: '/JavaScript/12.运算符.md',
+                  },
                 ],
               },
             ],
