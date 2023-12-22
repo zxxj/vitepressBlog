@@ -65,6 +65,10 @@ export default defineConfig({
                 text: '设置物体的缩放',
                 link: '/threejs/6.设置物体缩放.md',
               },
+              {
+                text: '设置物体的旋转',
+                link: '/threejs/7.设置物体旋转.md',
+              },
             ],
           },
           {
