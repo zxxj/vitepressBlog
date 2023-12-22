@@ -37,7 +37,36 @@ export default defineConfig({
         text: '导航',
         items: [
           { text: 'HTML', link: '/html/index.md' },
-          { text: 'three.js', link: '/threejs/index.md' },
+          {
+            text: 'three.js',
+            collapsed: true,
+            items: [
+              {
+                text: '使用Parcel创建threejs环境',
+                link: '/threejs/1.使用parcel创建threejs环境.md',
+              },
+              {
+                text: '了解threejs最基本的内容',
+                link: '/threejs/2.了解threejs最基本的内容.md',
+              },
+              {
+                text: '添加轨道控制器',
+                link: '/threejs/3.添加轨道控制器.md',
+              },
+              {
+                text: '添加坐标轴辅助器',
+                link: '/threejs/4.添加坐标轴辅助器.md',
+              },
+              {
+                text: '设置物体的移动',
+                link: '/threejs/5.设置物体的移动.md',
+              },
+              {
+                text: '设置物体的缩放',
+                link: '/threejs/6.设置物体缩放.md',
+              },
+            ],
+          },
           {
             collapsed: true,
             text: 'JavaScript',
@@ -89,6 +118,14 @@ export default defineConfig({
                   {
                     text: '运算符',
                     link: '/JavaScript/12.运算符.md',
+                  },
+                  {
+                    text: '程序的执行顺序',
+                    link: '/JavaScript/13.程序的执行顺序.md',
+                  },
+                  {
+                    text: '分支语句',
+                    link: '/JavaScript/14.分支语句.md',
                   },
                 ],
               },
