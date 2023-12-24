@@ -42,32 +42,89 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: '使用Parcel创建threejs环境',
-                link: '/threejs/1.使用parcel创建threejs环境.md',
+                text: '基本内容与物体',
+                collapsed: true,
+                items: [
+                  {
+                    text: '使用Parcel创建threejs环境',
+                    link: '/threejs/1.基本内容与物体/1.使用parcel创建threejs环境.md',
+                  },
+                  {
+                    text: '了解threejs最基本的内容',
+                    link: '/threejs/1.基本内容与物体/2.了解threejs最基本的内容.md',
+                  },
+                  {
+                    text: '添加轨道控制器',
+                    link: '/threejs/1.基本内容与物体/3.添加轨道控制器.md',
+                  },
+                  {
+                    text: '添加坐标轴辅助器',
+                    link: '/threejs/1.基本内容与物体/4.添加坐标轴辅助器.md',
+                  },
+                  {
+                    text: '设置物体的移动',
+                    link: '/threejs/1.基本内容与物体/5.设置物体的移动.md',
+                  },
+                  {
+                    text: '设置物体的缩放',
+                    link: '/threejs/1.基本内容与物体/6.设置物体缩放.md',
+                  },
+                  {
+                    text: '设置物体的旋转',
+                    link: '/threejs/1.基本内容与物体/7.设置物体旋转.md',
+                  },
+                  {
+                    text: 'requestAnimationFrame通过时间参数控制动画',
+                    link: '/threejs/1.基本内容与物体/8.requestAnimationFrame通过时间参数正确控制动画运动.md',
+                  },
+                  {
+                    text: '通过Clock时间跟踪对象处理动画',
+                    link: '/threejs/1.基本内容与物体/9.通过Clock时间跟踪对象处理动画.md',
+                  },
+                  {
+                    text: '利用gsap实现动画',
+                    link: '/threejs/1.基本内容与物体/10.利用gsap实现动画.md',
+                  },
+                  {
+                    text: '轨道控制器开启阻尼',
+                    link: '/threejs/1.基本内容与物体/11.轨道控制器开启阻尼.md',
+                  },
+                  {
+                    text: '根据页面尺寸变化实现自适应',
+                    link: '/threejs/1.基本内容与物体/12.根据页面尺寸变化实现自适应.md',
+                  },
+                  {
+                    text: '进入全屏与退出全屏',
+                    link: '/threejs/1.基本内容与物体/13.双击进入全屏与退出全屏.md',
+                  },
+                  {
+                    text: '使用dat.gui调试threejs物体',
+                    link: '/threejs/1.基本内容与物体/14.使用datGUI调试Threejs物体.md',
+                  },
+                  {
+                    text: '使用BufferGeometry设置顶点创建矩形',
+                    link: '/threejs/1.基本内容与物体/15.使用BufferGeometry设置顶点创建矩形.md',
+                  },
+                  {
+                    text: '使用BufferGeometry设置顶点生成酷炫三角形',
+                    link: '/threejs/1.基本内容与物体/16.使用BufferGeometry设置顶点生成酷炫三角形.md',
+                  },
+                ],
               },
+
               {
-                text: '了解threejs最基本的内容',
-                link: '/threejs/2.了解threejs最基本的内容.md',
-              },
-              {
-                text: '添加轨道控制器',
-                link: '/threejs/3.添加轨道控制器.md',
-              },
-              {
-                text: '添加坐标轴辅助器',
-                link: '/threejs/4.添加坐标轴辅助器.md',
-              },
-              {
-                text: '设置物体的移动',
-                link: '/threejs/5.设置物体的移动.md',
-              },
-              {
-                text: '设置物体的缩放',
-                link: '/threejs/6.设置物体缩放.md',
-              },
-              {
-                text: '设置物体的旋转',
-                link: '/threejs/7.设置物体旋转.md',
+                text: '材质',
+                collapsed: true,
+                items: [
+                  {
+                    text: '设置纹理贴图',
+                    link: '/threejs/2.材质/1.设置纹理贴图.md',
+                  },
+                  {
+                    text: '设置纹理的属性',
+                    link: '/threejs/2.材质/2.设置纹理的属性.md',
+                  },
+                ],
               },
             ],
           },
