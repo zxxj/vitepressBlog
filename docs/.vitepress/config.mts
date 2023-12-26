@@ -156,6 +156,36 @@ export default defineConfig({
                     text: '设置加载管理器来查看纹理的加载进度情况',
                     link: '/threejs/2.材质/10.设置加载管理器来查看纹理的加载进度情况.md',
                   },
+                  {
+                    text: '设置环境纹理贴图',
+                    link: '/threejs/2.材质/11.设置环境纹理贴图.md',
+                  },
+                  {
+                    text: '设置场景的背景与加载HDR图',
+                    link: '/threejs/2.材质/12.设置场景的背景与加载HDR图.md',
+                  },
+                ],
+              },
+              {
+                text: '灯光与阴影',
+                collapsed: true,
+                items: [
+                  {
+                    text: '灯光与阴影的关系和实现阴影效果',
+                    link: '/threejs/3.灯光与阴影/1.灯光与阴影的关系与设置.md',
+                  },
+                  {
+                    text: '平行光的阴影属性',
+                    link: '/threejs/3.灯光与阴影/2.平行光的阴影属性.md',
+                  },
+                  {
+                    text: '聚光灯',
+                    link: '/threejs/3.灯光与阴影/3.聚光灯.md',
+                  },
+                  {
+                    text: '点光源',
+                    link: '/threejs/3.灯光与阴影/4.点光源.md',
+                  },
                 ],
               },
             ],
