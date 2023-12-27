@@ -188,6 +188,20 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: '粒子效果points',
+                collapsed: true,
+                items: [
+                  {
+                    text: '初识points与材质',
+                    link: '/threejs/4.粒子效果/1.初识points与材质.md',
+                  },
+                  {
+                    text: '平行光的阴影属性',
+                    link: '/threejs/4.粒子效果/2.利用points打造星空.md',
+                  },
+                ],
+              },
             ],
           },
           {
