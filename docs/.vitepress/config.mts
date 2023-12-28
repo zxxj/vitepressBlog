@@ -200,6 +200,20 @@ export default defineConfig({
                     text: '平行光的阴影属性',
                     link: '/threejs/4.粒子效果/2.利用points打造星空.md',
                   },
+                  {
+                    text: '实现漫天雪花效果',
+                    link: '/threejs/4.粒子效果/3.实现漫天雪花.md',
+                  },
+                ],
+              },
+              {
+                text: '利用投射光线与三维物体进行交互',
+                collapsed: true,
+                items: [
+                  {
+                    text: '利用投射光线与三维物体进行交互',
+                    link: '/threejs/5.利用投射光线与三维物体进行交互/index.md',
+                  },
                 ],
               },
             ],
