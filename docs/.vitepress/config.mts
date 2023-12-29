@@ -197,7 +197,7 @@ export default defineConfig({
                     link: '/threejs/4.粒子效果/1.初识points与材质.md',
                   },
                   {
-                    text: '平行光的阴影属性',
+                    text: '实现星空效果',
                     link: '/threejs/4.粒子效果/2.利用points打造星空.md',
                   },
                   {
